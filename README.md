@@ -18,7 +18,7 @@ Here are two examples:
 Your first task is to figure out which one of these repos contains "working code".
 
 *Problem:*
-You're all obviously not yet qualified to actually read the code and understand what it does.
+You're not yet qualified to actually read the code and understand what it does.
 So how do you figure out which project has good code?
 
 *Solution:*
@@ -32,6 +32,9 @@ One of the repos has failing test cases, and one has passing test cases.
 Download the repo with passing test cases using the command
 ```
 $ git clone <url>
+```
+And then enter the repo with the command
+```
 $ cd <repo_dir>
 ```
 
