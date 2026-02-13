@@ -41,7 +41,7 @@ $ cd <repo_dir>
 ## Running the Code
 
 Recall that you can always use the program `ls` to list the files in the current directory.
-If you've successfully downloaded the right url,
+If you've successfully cloned and cded into the repo,
 you should see output that looks like
 ```
 $ ls
