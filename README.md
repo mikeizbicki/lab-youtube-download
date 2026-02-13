@@ -1,5 +1,7 @@
 # Lab: Youtube Download
 
+<img src=img/discover.jpg width=300px align=right />
+
 One of the benefits of python is that it is easy to download and run programs (called scripts) that other people have written.
 In your next project you will write one of these scripts.
 The purpose of this lab is to give you practice using other people's scripts.
@@ -21,6 +23,8 @@ So how do you figure out which project has good code?
 
 *Solution:*
 Github Actions.
+
+<img src=img/build-passing.png />
 
 Click each of the links above and look for a test case badge.
 One of the repos has failing test cases, and one has passing test cases.
@@ -119,6 +123,10 @@ $ python3 yt_dlp/__main__.py 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 >   They use `yt-dlp` to archive videos,
 >   and you can find the [archived repository here](https://kcnawatch.org/kctv-archive/).
 >   Foreign policy analysts can rely on the fact that videos in this archive will not be modified/deleted due to changes in the political climate.
+>   `yt-dlp` also has the nice advantage that it can download from *any* video website, not just youtube.
+>   So these archivists can archive *any* videos that the DPRK puts online.
+>
+>   <img src=img/dlp.png width=400px />
 >
 > Previously, the standard package for downloading content from youtube was called `youtube-dl`,
 > but a legal battle with the RIAA caused the project to "fork" to the new `yt-dlp` project.
