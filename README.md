@@ -1,6 +1,6 @@
 # Lab: Youtube Download
 
-<img src=img/discover.jpg width=300px align=right />
+<img src=img/discover.jpg width=200px align=right />
 
 One of the benefits of python is that it is easy to download and run programs (called scripts) that other people have written.
 In your next project you will write one of these scripts.
